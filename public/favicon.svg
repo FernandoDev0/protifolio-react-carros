@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(0.5, 4.5)">
+    <!-- Top-left speed slash -->
+    <polygon points="5,2 9,2 14,10 10,10" fill="url(#favGrad)" />
+    
+    <!-- Middle speed tab/bar -->
+    <polygon points="3,14.5 18,14.5 14,22.5 3,22.5" fill="url(#favGrad)" />
+    
+    <!-- Main D body with inner cutout -->
+    <path fill-rule="evenodd" fill="url(#favGrad)" d="
+      M 13,2 
+      L 32,2 
+      C 41.5,2 47.5,7.5 47.5,20 
+      C 47.5,32.5 41.5,38 32,38 
+      L 9.5,38 
+      L 12.5,26 
+      L 19.5,26 
+      L 19.5,29 
+      L 31,29 
+      C 36,29 39,26 39,20 
+      C 39,14 36,11 31,11 
+      L 17,11 
+      Z" />
+  </g>
+</svg>

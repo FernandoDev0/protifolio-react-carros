@@ -1,0 +1,82 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Env and Firebase cache
+.env
+.env.*
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+pubsub-debug.log
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Scratch from image work, not used by the app
+crop_avatars.py
+find_photos.py
+crop_log.txt
+*.jfif
+*.provenance.json
+__pycache__/
+
+# Vite template files that the app does not import
+src/assets/
+
+# Icons the UI does not reference
+public/icons.svg
+public/icons/calendar.svg
+public/icons/gauge.svg
+public/icons/heart.svg
+public/icons/logo-icon.svg
+
+# Reference, crop and test images
+public/images/band_*.jpg
+public/images/brand_logo_reference.png
+public/images/c1_test.jpg
+public/images/c2_test.jpg
+public/images/c3_test.jpg
+public/images/c4_test.jpg
+public/images/dep_slice_*.jpg
+public/images/full_depoimentos_grid.jpg
+public/images/full_depoimentos_section.jpg
+public/images/master_depoimentos_cards.jpg
+public/images/p4_service_test.jpg
+public/images/real_depoimentos_section.jpg
+public/images/right_column_full.jpg
+public/images/sec_col_*.jpg
+public/images/test_*.jpg
+public/images/what_is_this.jpg
+public/images/cars/*_orig.jpg
+public/images/cars/*_card_exact.jpg
+public/images/categories/*_orig.jpg
+public/images/hero/hero-car.jpg
+public/images/hero/hero-flipped-test.jpg
+public/images/hero/hero_car_extracted.jpg
+public/images/hero/original_hero_crop.jpg
+public/images/testimonials/*
+!public/images/testimonials/avatar-1.jpg
+!public/images/testimonials/avatar-2.jpg
+!public/images/testimonials/avatar-3.jpg
